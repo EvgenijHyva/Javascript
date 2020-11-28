@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1 homework</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <script>
+        'use strict'
+        document.write("<b>Задание 3:</b><br>Чему будет равно JS-выражение 1000 + \"108\" <br><br>")
+        var res = 1000 + "108"
+        document.write("выражение будет равно " + res + ", так как тип int будет приведен к str и после произойдет конкотенация строк<br><br>")
+        document.write("<b>Задание 4:</b><br>Самостоятельно разобраться с атрибутами тега script (async и defer)<br><br>")
+        document.write("-Aтрибут скрипта defer: сообщает браузуру что бы тот загрузил страницу посностью, <br>однако скрипт загружает в  фоновом режиме и после того как скрипт загрузится запустут его тоесть когда дерево DOM будет готово.<br>")
+        document.write("-Aтрибут скрипта async: все скрипты с атрибутом async загружатся независимо друг от друга, так же и страница<br> если есть несколько скриптов с атрибутом async то они могут выполнятся в рандомном порядке, зависит от того какой загрузится первым")
+        document.write("<br>Атрибуты async и defer не блокируют отрисовку страницы")
+    </script>
+</body>
+
+</html>
