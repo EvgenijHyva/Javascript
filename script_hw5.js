@@ -12,4 +12,4 @@ let i = "";
 do {
     i += "x"
     console.log(i);
-} while (i.length <= 20);
+} while (i.length < 20);
